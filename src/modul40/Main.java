@@ -1,13 +1,35 @@
 package modul40;
+
 public class Main {
     public static void main(String[] args){
-        int a = 4;
-        int h = 7;
-        int t = (a*h)/2;
+        int sideT = 4;
+        int heightT = 7;
 
-        System.out.println("Основание  "+a);
-        System.out.println("Высота  "+h);
-        System.out.println("");
-        System.out.println("Площадь треугольника  "+t);
+        int widthR = 5;
+        int heightR = 7;
+
+        double pi = 3.14;
+        int radius = 7;
+
+        double resultTriangle;
+        double resultRectangle;
+        double resultCircle;
+
+        GetAreaTriangle getAreaTriangle;
+        getAreaTriangle = new GetAreaTriangle();
+        resultTriangle = getAreaTriangle.calculateTriangle(sideT,heightT);
+
+        GetAreaRectangle getAreaRectangle;
+        getAreaRectangle = new GetAreaRectangle();
+        resultRectangle = getAreaRectangle.calculateRectangle(widthR,heightR);
+
+        GetAreaCircle getAreaCircle;
+        getAreaCircle = new GetAreaCircle();
+        resultCircle = getAreaCircle.calculateCircle(pi,radius);
+
+        System.out.println(resultTriangle);
+        System.out.println(resultRectangle);
+        System.out.println(resultCircle);
+
     }
 }
