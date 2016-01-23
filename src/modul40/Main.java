@@ -8,13 +8,13 @@ public class Main {
         int widthR = 5;
         int heightR = 7;
 
-  //      double pi = 3.14;
+        //      double pi = 3.14;
         int radius = 7;
 
         double resultTriangle;
         double resultRectangle;
         double resultCircle;
-
+/*
         FigureSquare getAreaTriangle = new FigureSquare();
         resultTriangle = getAreaTriangle.calculateTriangle(sideT, heightT);
 
@@ -23,6 +23,11 @@ public class Main {
 
         FigureSquare getAreaCircle = new FigureSquare();
         resultCircle = getAreaCircle.calculateCircle(radius);
+*/
+        FigureSquare figureSquare = new FigureSquare();
+        resultTriangle = figureSquare.calculateTriangle(sideT, heightT);
+        resultRectangle = figureSquare.calculateRectangle(widthR, heightR);
+        resultCircle = figureSquare.calculateCircle(radius);
 
         System.out.println(resultTriangle);
         System.out.println(resultRectangle);
