@@ -2,13 +2,13 @@ package modul40;
 
 public class Main {
     public static void main(String[] args) {
-        int sideT = 4;
+        int sideT = 6;
         int heightT = 7;
 
         int widthR = 5;
         int heightR = 7;
 
-        double pi = 3.14;
+  //      double pi = 3.14;
         int radius = 7;
 
         double resultTriangle;
@@ -22,7 +22,7 @@ public class Main {
         resultRectangle = getAreaRectangle.calculateRectangle(widthR, heightR);
 
         FigureSquare getAreaCircle = new FigureSquare();
-        resultCircle = getAreaCircle.calculateCircle(pi, radius);
+        resultCircle = getAreaCircle.calculateCircle(radius);
 
         System.out.println(resultTriangle);
         System.out.println(resultRectangle);
