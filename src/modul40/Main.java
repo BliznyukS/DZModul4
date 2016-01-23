@@ -8,7 +8,7 @@ public class Main {
         int widthR = 5;
         int heightR = 7;
 
-        //      double pi = 3.14;
+        //double pi = 3.14;
         int radius = 7;
 
         double resultTriangle;
