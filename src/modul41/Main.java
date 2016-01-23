@@ -16,7 +16,7 @@ public class Main {
         celsius = Double.parseDouble(cStr);
 
         DegreeConversion getDegreeConversion = new DegreeConversion();
-        resultDegree = getDegreeConversion.convertCelsiusToFahrenheit();
+        resultDegree = getDegreeConversion.convertCelsiusToFahrenheit(celsius);
 
         System.out.println(celsius + " Grad Celsius");
         System.out.println(resultDegree + " Grad Fahrenheit");
