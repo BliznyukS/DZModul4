@@ -14,10 +14,10 @@ public class Main {
         double result;
 
         //declare future creation of GetDistanceBetweenTwoDots class
-        GetDistanceBetweenTwoDots getDistanceBetweenTwoDots;
+        DistanceBetweenTwoDots getDistanceBetweenTwoDots;
 
         // instantiate GetDistanceBetweenTwoDots with default constructor
-        getDistanceBetweenTwoDots = new GetDistanceBetweenTwoDots();
+        getDistanceBetweenTwoDots = new DistanceBetweenTwoDots();
 
         result = getDistanceBetweenTwoDots.calculateByCoordinates(x1, x2, y1, y2);
 
