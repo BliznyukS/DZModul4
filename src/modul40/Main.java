@@ -15,13 +15,13 @@ public class Main {
         double resultRectangle;
         double resultCircle;
 
-        GetAreaTriangle getAreaTriangle = new GetAreaTriangle();
+        FigureSquare getAreaTriangle = new FigureSquare();
         resultTriangle = getAreaTriangle.calculateTriangle(sideT, heightT);
 
-        GetAreaRectangle getAreaRectangle = new GetAreaRectangle();
+        FigureSquare getAreaRectangle = new FigureSquare();
         resultRectangle = getAreaRectangle.calculateRectangle(widthR, heightR);
 
-        GetAreaCircle getAreaCircle = new GetAreaCircle();
+        FigureSquare getAreaCircle = new FigureSquare();
         resultCircle = getAreaCircle.calculateCircle(pi, radius);
 
         System.out.println(resultTriangle);
