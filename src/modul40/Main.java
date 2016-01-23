@@ -1,7 +1,7 @@
 package modul40;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int sideT = 4;
         int heightT = 7;
 
@@ -16,13 +16,13 @@ public class Main {
         double resultCircle;
 
         GetAreaTriangle getAreaTriangle = new GetAreaTriangle();
-        resultTriangle = getAreaTriangle.calculateTriangle(sideT,heightT);
+        resultTriangle = getAreaTriangle.calculateTriangle(sideT, heightT);
 
         GetAreaRectangle getAreaRectangle = new GetAreaRectangle();
-        resultRectangle = getAreaRectangle.calculateRectangle(widthR,heightR);
+        resultRectangle = getAreaRectangle.calculateRectangle(widthR, heightR);
 
         GetAreaCircle getAreaCircle = new GetAreaCircle();
-        resultCircle = getAreaCircle.calculateCircle(pi,radius);
+        resultCircle = getAreaCircle.calculateCircle(pi, radius);
 
         System.out.println(resultTriangle);
         System.out.println(resultRectangle);

@@ -1,5 +1,7 @@
 package modul42;
+
 import static java.lang.Math.abs;
+
 public class Main {
 
     //MAIN METHOD - RUNS APP
@@ -17,7 +19,7 @@ public class Main {
         // instantiate GetDistanceBetweenTwoDots with default constructor
         getDistanceBetweenTwoDots = new GetDistanceBetweenTwoDots();
 
-        result = getDistanceBetweenTwoDots.calculateByCoordinates(x1,x2,y1,y2);
+        result = getDistanceBetweenTwoDots.calculateByCoordinates(x1, x2, y1, y2);
 
         System.out.println(result);
     }

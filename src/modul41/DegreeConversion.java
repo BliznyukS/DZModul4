@@ -1,8 +1,7 @@
 package modul41;
-import java.io.IOException;
 
 public class DegreeConversion {
-        public double convertCelsiusToFahrenheit(double celsius) throws IOException {
+    public double convertCelsiusToFahrenheit(double celsius) {
         double fahrenheit;
 
         fahrenheit = (celsius * 9.0 / 5.0) + 32;

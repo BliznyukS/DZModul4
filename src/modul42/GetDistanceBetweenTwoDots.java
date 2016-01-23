@@ -1,4 +1,5 @@
 package modul42;
+
 import static java.lang.Math.abs;
 import static java.lang.StrictMath.sqrt;
 import static java.lang.StrictMath.pow;
