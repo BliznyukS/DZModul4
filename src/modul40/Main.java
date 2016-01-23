@@ -14,7 +14,7 @@ public class Main {
         double resultTriangle;
         double resultRectangle;
         double resultCircle;
-/*
+        /*
         FigureSquare getAreaTriangle = new FigureSquare();
         resultTriangle = getAreaTriangle.calculateTriangle(sideT, heightT);
 
@@ -23,7 +23,7 @@ public class Main {
 
         FigureSquare getAreaCircle = new FigureSquare();
         resultCircle = getAreaCircle.calculateCircle(radius);
-*/
+        */
         FigureSquare figureSquare = new FigureSquare();
         resultTriangle = figureSquare.calculateTriangle(sideT, heightT);
         resultRectangle = figureSquare.calculateRectangle(widthR, heightR);
