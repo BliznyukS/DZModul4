@@ -1,12 +1,8 @@
 package modul41;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args)throws IOException {
-        double fahrenheit;
-        double celsius;
         double resultDegree;
 
 /*      double fahrenheit;
